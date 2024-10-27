@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../Estilos/style.css">
+    <script defer src="../Scripts/script.js"></script>
+    <title>Wordle</title>
+</head>
+<body>
+    
+    <div class="container-md" id="container">
+      <header id="titulo">
+        <h1 id="h2Titulo">Wordle</h1>
+      </header>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+      <div id="palavra">
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+        <div id="espacoLetra"></div>
+      </div>
+
+
+    <div id="teclado" class="container-fluid">
+      <div id="linha">
+        <div id="tecla" onclick="preencherLetra('Q')">Q</div>
+        <div id="tecla" onclick="preencherLetra('W')">W</div>
+        <div id="tecla" onclick="preencherLetra('E')">E</div>
+        <div id="tecla" onclick="preencherLetra('R')">R</div>
+        <div id="tecla" onclick="preencherLetra('T')">T</div>
+        <div id="tecla" onclick="preencherLetra('Y')">Y</div>
+        <div id="tecla" onclick="preencherLetra('U')">U</div>
+        <div id="tecla" onclick="preencherLetra('I')">I</div>
+        <div id="tecla" onclick="preencherLetra('O')">O</div>
+        <div id="tecla" onclick="preencherLetra('P')">P</div>
+    </div>
+    <div id="linha">
+        <div id="tecla" onclick="preencherLetra('A')">A</div>
+        <div id="tecla" onclick="preencherLetra('S')">S</div>
+        <div id="tecla" onclick="preencherLetra('D')">D</div>
+        <div id="tecla" onclick="preencherLetra('F')">F</div>
+        <div id="tecla" onclick="preencherLetra('G')">G</div>
+        <div id="tecla" onclick="preencherLetra('H')">H</div>
+        <div id="tecla" onclick="preencherLetra('J')">J</div>
+        <div id="tecla" onclick="preencherLetra('K')">K</div>
+        <div id="tecla" onclick="preencherLetra('L')">L</div>
+        <div id="tecla" onclick="verificarPalavra()">Enter</div>
+    </div>
+    <div id="linha">
+        <div id="tecla" onclick="preencherLetra('Z')">Z</div>
+        <div id="tecla" onclick="preencherLetra('X')">X</div>
+        <div id="tecla" onclick="preencherLetra('C')">C</div>
+        <div id="tecla" onclick="preencherLetra('V')">V</div>
+        <div id="tecla" onclick="preencherLetra('B')">B</div>
+        <div id="tecla" onclick="preencherLetra('N')">N</div>
+        <div id="tecla" onclick="preencherLetra('M')">M</div>
+        <div id="tecla" onclick="apagarLetra()"><img src="../img/backspace.png" alt="backspace"></div>
+        <div id="tecla" onclick="recarregarPagina()">Reiniciar</div>
+  </div>
+</div>
+</body>
+</html>

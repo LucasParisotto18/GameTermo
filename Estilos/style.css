@@ -1,0 +1,102 @@
+body {
+    background-color:#f0f0d8;
+}
+
+#container{
+    background-color:#b2b39f;
+    height: 918px;
+    width: 950px;
+    border-radius: 16px;
+    padding-top: 8px;
+}
+
+#titulo{
+    margin: 8px;
+    margin-bottom: 24px;
+    
+}
+
+#h2Titulo{
+    text-align: center;
+}
+
+#palavra{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    margin: 4px;
+    margin-bottom: 0;
+}
+
+#espacoLetra{
+    border: 3px solid #272928b9;
+    padding: 4px;
+    display: inline-flex;
+    margin: 12px;
+    margin-bottom: 0;
+    width: 68px;
+    height: 70px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    box-shadow: 3px 2px 2px rgb(105, 98, 98);
+
+}
+
+
+#espacoLetra.correto {
+    background-color: #8fd053;
+    border-color: #8fd053;
+    color: white;
+}
+
+#espacoLetra.presente {
+    background-color: #c9b458; 
+    border-color: #c9b458;
+    color: white;
+}
+
+#espacoLetra.incorreto {
+    background-color: #787c7e;
+    border-color: #787c7e;
+    color: white;
+}
+
+#teclado{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+#linha{
+    display: inherit;
+    justify-content: center;
+}
+
+#tecla{
+    height: 40px;
+    width: 55px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #272928b9;
+    border-radius: 8px;
+    padding: 8px;
+    margin: 8px;
+    background-color: #cedad3da;
+    font-size: 15px;
+    font-weight: bold;
+    box-shadow: 3px 2px 2px rgb(105, 98, 98);
+    cursor: pointer;
+}
+
+#tecla:hover{
+    background-color: #b3bdb7da ;
+}
+
+#tecla img{
+    background-size: cover; 
+    height: 30px;
+}
