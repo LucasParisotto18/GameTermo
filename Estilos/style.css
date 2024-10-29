@@ -13,6 +13,8 @@ body {
 #titulo{
     margin: 8px;
     margin-bottom: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.8rem;
     
 }
 
@@ -37,6 +39,8 @@ body {
     width: 68px;
     height: 70px;
     text-transform: uppercase;
+    font-weight: bolder;
+    font-size: large;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
@@ -47,19 +51,19 @@ body {
 
 #espacoLetra.correto {
     background-color: #8fd053;
-    border-color: #8fd053;
+    border-color: #86c24d;
     color: white;
 }
 
 #espacoLetra.presente {
     background-color: #c9b458fb; 
-    border-color: #c9b458;
+    border-color: #b6a24c;
     color: white;
 }
 
 #espacoLetra.incorreto {
     background-color: #787c7e;
-    border-color: #787c7e;
+    border-color: #6b6f70;
     color: white;
 }
 
